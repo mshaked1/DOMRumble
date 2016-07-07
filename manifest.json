@@ -7,7 +7,7 @@
   "content_scripts": [
         {
             "matches": ["http://*/*"],
-            "js": ["js/three.js"]
+            "js": ["js/CSS3DRenderer.js","js/three.min.js","js/three.js"]
         }
     ],
   "browser_action": {

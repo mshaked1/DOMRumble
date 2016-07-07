@@ -1,5 +1,5 @@
-import THREELib from "three-js";
-var THREE = THREELib();
+// import THREELib from "three-js";
+// var THREE = THREELib();
 
 var docHeight = document.body.clientHeight;
 var docWidth = document.body.clientWidth;
@@ -122,3 +122,4 @@ function render() {
   renderer.render(scene, camera);
 }
   console.log(document.body);
+  console.log('test');
