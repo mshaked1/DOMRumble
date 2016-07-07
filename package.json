@@ -1,0 +1,28 @@
+{
+  "name": "domspin",
+  "version": "1.0.0",
+  "description": "Spins dom elements using three js and CSS3D",
+  "main": "three.js",
+  "dependencies": {
+    "three-js": "^78.0.1",
+    "css3drenderer": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshaked1/DOMRumble.git"
+  },
+  "keywords": [
+    "ThreeJS",
+    "domspin"
+  ],
+  "author": "Micky Shaked and Mike Puangmalai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mshaked1/DOMRumble/issues"
+  },
+  "homepage": "https://github.com/mshaked1/DOMRumble#readme"
+}
