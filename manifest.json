@@ -1,17 +1,17 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
-  "name": "DOMRumble",
-  "description": "This extension shows manipulates DOM elements based on user song of choice",
-  "version": "1.0",
+  "name": "DOMSpin",
+  "description": "This extension manipulates DOM elements in a 3D render",
+  "version": "0.0.1",
   "content_scripts": [
         {
-            "js": ["js/popup.js", "js/three.js"]
+            "js": ["js/three.js"]
         }
     ],
   "browser_action": {
     "default_icon": "/images/logo.gif",
-    "default_title": "Click here to rumble the page to your favorite music"
+    "default_title": "Click here to spin shit"
   },
   "permissions": [
     "activeTab",
